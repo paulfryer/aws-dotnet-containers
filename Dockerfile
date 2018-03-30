@@ -7,7 +7,7 @@ RUN dotnet restore
 
 COPY . .
 RUN dotnet build -c Release --no-restore
-RUN dotnet publish "./DotNet.WebApp/DotNet.WebApp.csproj" -c Release -o "../../dist" --no-restore
+RUN dotnet publish "./DotNet.WebApp/DotNet.WebApp.csproj" -c Release -o "../dist" --no-restore
 
 FROM microsoft/aspnetcore:2.0.3
 WORKDIR /app
