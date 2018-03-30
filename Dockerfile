@@ -12,5 +12,5 @@ RUN dotnet publish "./DotNet.WebApp/DotNet.WebApp.csproj" -c Release -o "../../d
 FROM microsoft/aspnetcore:2.0.3
 WORKDIR /app
 ENV ASPNETCORE_ENVIRONMENT Local
-ENTRYPOINT ["dotnet", "AspNetCoreInDocker.Web.dll"]
+ENTRYPOINT ["dotnet", "DotNet.WebApp.dll"]
 COPY --from=builder /sln/dist .
