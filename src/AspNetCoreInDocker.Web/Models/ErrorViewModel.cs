@@ -1,6 +1,4 @@
-using System;
-
-namespace AspNetCoreInDocker.Web.Models
+namespace DotNet.WebApp.Models
 {
     public class ErrorViewModel
     {

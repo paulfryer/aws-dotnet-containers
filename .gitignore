@@ -3,3 +3,11 @@
 ################################################################################
 
 /.vs
+/src/AspNetCoreInDocker.Lib/bin/Debug/netstandard2.0
+/src/AspNetCoreInDocker.Lib/obj/Debug/netstandard2.0
+/src/AspNetCoreInDocker.Lib/obj
+/src/AspNetCoreInDocker.Web/bin/Debug/netcoreapp2.0
+/src/AspNetCoreInDocker.Web/obj
+/test/AspNetCoreInDocker.Web.Tests/bin/Debug/netcoreapp2.0
+/test/AspNetCoreInDocker.Web.Tests/obj/Debug/netcoreapp2.0
+/test/AspNetCoreInDocker.Web.Tests/obj/Release/netcoreapp2.0

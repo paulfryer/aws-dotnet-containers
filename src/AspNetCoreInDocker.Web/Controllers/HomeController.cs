@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Diagnostics;
+using DotNet.WebApp.Models;
 using Microsoft.AspNetCore.Mvc;
-using AspNetCoreInDocker.Web.Models;
 
-namespace AspNetCoreInDocker.Web.Controllers
+namespace DotNet.WebApp.Controllers
 {
     public class HomeController : Controller
     {
